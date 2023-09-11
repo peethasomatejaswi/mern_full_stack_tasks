@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task 7</title>
+    <style>
+        h3{
+            font-family: calibri;
+        }
+        /* Style for the vertical navigation bar */
+        .vertical-nav {
+            width: 200px;
+            background-color:lightblue;
+            padding: 10px;
+            margin-left: 3px;
+            margin-right: 5px;
+            margin-bottom: 0px;
+            margin-top: 5px;
+        }
+
+        .vertical-nav a {
+            color: rgb(9, 78, 142); 
+            text-decoration: none;
+            display: block;
+            padding: 10px 0;
+            
+        }
+
+        .vertical-nav a:hover {
+            background-color: #555;
+        }
+
+        /* Specific style for the "Home" link */
+        .vertical-nav a.home {
+            background-color: orange;
+            color: white;
+            display: block;
+            margin-left: -10px;
+            padding: 10px;
+            margin-top: -8px;
+            width: 200px;
+        }
+
+                /* Style for the horizontal navigation bar */
+                .horizontal-nav {
+            background-color: #dbdbdb;
+            overflow: hidden;
+            max-width: 400px; 
+            margin: 0 auto; 
+        }
+
+        .horizontal-nav a {
+            float: left;
+            display: block;
+            color:rgb(8, 82, 202); 
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            border-left: 1px solid blue; /* Left border style and color */
+            border-right: 1px solid blue; /* Right border style and color */
+    
+        }
+
+        .horizontal-nav a:hover {
+            background-color: #555;
+            
+        }
+
+        /* Specific style for the "Home" link */
+        .horizontal-nav a.home {
+            background-color: #5b5a5a;
+            color: rgb(255, 255, 255);
+            border: 1px solid #4b4b4b;
+           
+        }
+
+    </style>
+</head>
+<body>
+    <table border="1" cellspacing="0" bordercolor="black" bgcolor="white" height="200" width="15%">
+    <caption><h3>Vertical Navigation Bar</h3></caption>
+        <tr>
+     <td>
+    <div class="vertical-nav">
+        <a href="#" class="home">Home</a>
+        <a href="#"><b>Java</b></a>
+        <a href="#"><b>CSS</b></a>
+        <a href="#"><b>HTML</b></a>
+        <a href="#"><b>Boostrap</b></a>
+    </div>
+</td>
+</tr>
+</table>
+
+<table border="1" cellspacing="0" bordercolor="black" bgcolor="white" height="60" width="27%" style="margin:-200px 400px;">
+    <caption><h3>Horizontal Navigation Bar</h3></caption>
+        <tr>
+     <td>
+
+<div class="horizontal-nav">
+    <a href="#" class="home"><b>Home</b></a>
+    <a href="#"><b>Java</b></a>
+    <a href="#"><b>HTML</b></a>
+    <a href="#"><b>CSS</b></a>
+    
+</div>
+</td>
+</tr>
+</table>
+
+</body>
+</html>
